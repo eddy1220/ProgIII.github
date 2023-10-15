@@ -1,0 +1,165 @@
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./imag/Banreservas-rd.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu img{
+    margin: 0%;
+    height: 75px;
+    width: 75px;
+}
+.MenuPrin img{
+
+    margin: 0%;
+    width: 500px;
+    height: 500px;
+}
+.MenuPrin{
+
+    list-style: nome;
+    padding: 14px;
+    background: #6169df;
+    width: 100%;
+    margin: 0;
+    height: 35px;
+    display: flex;
+    font-size: 15px;
+    transition: all 300ms ease;
+   
+
+
+}
+
+.MenuPrin li a{
+
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.MenuPrin > li{
+
+    display: inline-block;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+ 
+   
+}
+
+.MenuPrin > li > a:hover{
+
+    background: #ef8354;
+}
+
+.menu{
+
+    list-style: nome;
+    padding: 2%;
+    background: #f6f7f7;
+    width: 100%;
+    margin: 0;
+
+}
+.menu li a{
+
+    text-decoration: none;
+    color: rgb(5, 0, 0);
+    padding: 20px;
+    display: block;
+
+}
+.menu > li{
+
+    display: inline-block;
+   text-align: start;
+  
+
+}
+
+.menu > li a:hover{
+    background: #413ee6;
+
+}
+ul li ul{
+    width: 1100px;
+    display: flex;
+    flex-direction: initial;
+    background: #810a0a;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5) ;
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 30px 5px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+}
+ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+ul li ul a{
+    display: block;
+    color: #413ee6;
+    padding: 6px;
+    padding-left: 14px;
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+    list-style: none;
+}
+ul li ul a:hover{
+    background: #050d77;
+    color: #f6f7f7;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+
+}
+.menu ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: #810a0a;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5) ;
+    position: absolute;
+    top: 90px;
+    left: -10px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+.menu ul li ul a{
+    display: block;
+    color: #413ee6;
+    padding: 6px;
+    padding-left: 14px;
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+    list-style: none;
+}
+.menu ul li ul a:hover{
+    background: #050d77;
+    color: #f6f7f7;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+
+}
